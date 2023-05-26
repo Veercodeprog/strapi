@@ -1,4 +1,4 @@
-import path from 'path';
+const path = require('path');
 
 export default ({ env }) => {
   const client = env('DATABASE_CLIENT', 'sqlite');
